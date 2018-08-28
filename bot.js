@@ -298,20 +298,6 @@ For additional help, contact **- َBaazçhy .#9999**
 
 
 
-client.on('message', message => {
-       if (message.content === prefix + "about") {// This Code Edit By Mazchy . 
-       
-    (`Hello Im **.Maaaaaaaaay . Music Bot** :notes: 
-    
-    **im owned By** - َBaazçhy .#9999
-  
-    **Type \`${prefix}help\` to see my commands!**
-    
-    
-    `)  
-     
-      }
-  });
 
  
   client.on('message' , message => {
