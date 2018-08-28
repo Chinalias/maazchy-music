@@ -309,9 +309,7 @@ client.on('message', message => {
     
     
     `)  
-     .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=465693387253874694&scope=bot&permissions=2080374975')
-    message.channel.sendEmbed(embed);
+     
       }
   });
 
