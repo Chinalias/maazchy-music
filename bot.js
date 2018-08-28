@@ -34,6 +34,15 @@ var now_playing = [];
 \\\\\\\\\\\\\\\\\\\\\\\\V/////////////////////////
 \\\\\\\\\\\\\\\\\\\\\\\\V/////////////////////////
 */
+
+client.on('message', message => {
+if(!message.channel.guild) return;
+if (message.content.startsWith("mping")) {
+    message.channel.sendMessage(`**Time Taken : **\`${Date.now() - message.createdTimestamp} ms\`
+**Discord API :** \`${Math.round(client.ping)}\` `);
+    }
+});
+
 client.on('ready', () => {});
 var download = function(uri, filename, callback) {
     request.head(uri, function(err, res, body) {
