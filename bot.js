@@ -242,7 +242,6 @@ if (message.content === 'mhelp'){
 message.author.send(`
 **Music,Maazçhy .** commands:
 
-\`${prefix}about\` - **shows info about the bot**
 \`${prefix}ping\` - **checks the bot's latency**
 
   __Music__
